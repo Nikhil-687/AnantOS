@@ -1,0 +1,13 @@
+[Unit]
+Description=AnantOS User Toggle Script
+Before=shutdown.target
+DefaultDependencies=no
+
+[Service]
+ExecStart=/home/konsol/AnantOSLab/usr/local/bin/toggle-user.sh
+Type=oneshot
+
+
+[Install]
+WantedBy=multi-user.target
+

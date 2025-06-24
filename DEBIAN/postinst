@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod +x /usr/local/bin/toggle-user.sh
+systemctl daemon-reexec
+echo "AnantOS toggle tool installed!"

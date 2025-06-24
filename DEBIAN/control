@@ -1,0 +1,7 @@
+Package: anantos-toggle
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: Nikhil Patidar <you@example.com>
+Description: AnantOS tool to toggle login user state with systemd + cron.

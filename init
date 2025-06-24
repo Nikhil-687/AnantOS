@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "AnantOS booted successfully!"
+/usr/local/bin/toggle-user.sh
+exec /bin/sh  # drop to shell
